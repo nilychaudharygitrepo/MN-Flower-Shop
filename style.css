@@ -1,0 +1,98 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: pink;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  padding: 40px;
+  background: #fff0f5;
+}
+
+.hero img {
+  width: 50%;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+/* PRODUCTS */
+.products {
+  padding: 20px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+/* CART */
+.cart {
+  display: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: white;
+  width: 300px;
+  height: 100%;
+  padding: 20px;
+}
+
+/* PAYMENT */
+.payment {
+  display: none;
+  padding: 20px;
+  background: #ffe4e1;
+}
+
+/* REVIEWS */
+.reviews {
+  padding: 300px;
+  text-align: center;
+}
+
+.review-box img {
+  width: 300px;
+  border-radius: 70%;
+}
+
+/* CONTACT */
+.contact {
+  padding: 20px;
+  text-align: center;
+}
+
+.contact img {
+  width: 800px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 5x  15px  rgba(0, 0, 0.2);
+
+  margin-top: 15px;
+}
